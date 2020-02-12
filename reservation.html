@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang=fr dir="ltr">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Ada Hôtel | Tarifs et réservation</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900&display=swap" rel="stylesheet">
+	</head>
+
+<body>
+
+	<div class="pleinelargeur">
+
+		<div class="corpsdepage">
+
+	<header>
+
+<!-- Logo + titre page -->
+
+		<div class="logo">
+
+			<a href="index.html"><img src="assets/img/header/logo.png">
+			<h1>Ada Hôtel</h1></a>
+
+		</div>
+
+<!-- Menu -->
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="chambres.html" target="_blank">Nos Chambres</a></li>
+				<li><a href="reservation.html">Réservation</a></li>
+				<li><a href="services">Nos services</a></li>
+				<li><a href="quartier.html">Autour de nous</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<div class="tarifsreservation">
+
+<!-- Tableau tarifs -->
+
+		<section id="tarifs">
+
+			<h2>Nos tarifs par nuit</h2>
+
+				<table>
+
+					<thead>
+						<tr>
+							<th>Chambre simple</th>
+							<th>Chambre double</th>
+							<th>Suite</th>
+						</tr>
+					</thead>
+
+					<tfoot>
+						<tr>
+							<td>55€</td>
+							<td>75€</td>
+							<td>100€</td>
+						</tr>
+					</tfoot>
+
+					<tbody>
+						<tr>
+							<td>Simple</td>
+							<td>Double</td>
+							<td>Suite</td>
+						</tr>
+					</tbody>
+
+				</table>
+
+		</section>
+
+<!-- Formulaire résa -->
+
+<form class="" action="index.html" method="post">
+
+		<section id="reservation">
+
+			<h2>Réservation</h2>
+
+					<label for="">Date d'arrivée</label>
+					<input type="date" name="date" value="date"> <br>
+
+					<label for="">Nombre de nuits</label>
+					<input type="number" name="number" value=""> <br>
+
+					<label for="">Nombre d'adultes</label> <br>
+					<input type="number" name="number" value=""> <br>
+
+					<label for="">Nombre d'enfants -12 ans</label> <br>
+					<input type="number" name="number" value=""> <br>
+
+					<label for="">Votre chambre</label> <br>
+					<select class="choixchambre" name="choixchambre">
+						<option value="">Chambre simple</option>
+						<option value="">Chambre double</option>
+						<option value="">Suite</option>
+					</select> <br>
+
+		</section>
+
+<!-- Options cases à cocher -->
+
+		<section id="option">
+
+			<h2>Vos options</h2>
+
+					<label for="petitdejeuner">Petit déjeuner</label>
+					<input type="checkbox" name="petitdejeuner" value="" id="petitdejeuner">
+
+					<label for="parking">Emplacement parking</label>
+					<input type="checkbox" name="parking" value="" id="parking">
+
+					<label for="litbebe">Lit bébé</label>
+					<input type="checkbox" name="litbebe" value="" id="litbebe">
+
+					<label for="minibar">Mini-bar</label>
+					<input type="checkbox" name="minibar" value="" id="minibar">
+
+					<label for="animal">Animal de compagnie</label>
+					<input type="checkbox" name="animal" value="" id="animal">
+
+		</section>
+
+<!-- Infos client-->
+
+		<section id="infos">
+
+			<h2>Informations client</h2>
+
+					<label for="">Nom</label>
+					<input type="text" name="nom" value=""> <br>
+
+					<label for="">Prénom</label>
+					<input type="text" name="prenom" value=""> <br>
+
+					<label for="">Adresse</label>
+					<input type="text" name="adresse" value=""> <br>
+
+					<label for="">Code postal</label>
+					<input type="number" name="codepostal" value=""> <br>
+
+					<label for="">Ville</label>
+					<input type="text" name="ville" value=""> <br>
+
+					<label for="">Email</label>
+					<input type="email" name="" value=""> <br>
+
+					<label for="">Téléphone</label>
+					<input type="telephone" name="telephone" value=""> <br>
+
+				  <textarea name="name" rows="2" cols="100">Commentaires</textarea> <br>
+
+				  <label for="">Envoyer</label> <input type="submit" name="" value="envoyer">
+
+		</section>
+
+			</form>
+
+	</div>
+
+				<!-- Footer : logo ADA gauche-->
+
+	<footer>
+
+		<img src="assets/img/footer/logo_footer.png" alt="logo ADA Hôtel">
+		<p>ADA Hôtel</p>
+
+				<!-- Footer : plan + adresse milieu -->
+
+		<h2>Où nous trouver ?</h2>
+			<a href="www.google.fr/maps"><img src="assets/img/footer/map_petit.png" alt="picto carte"></a><hr>
+			<p>ADA Hôtel<br>
+			312 rue des Descodeuses <br/>
+			66 666 Womenarecoding</p>
+
+				<!-- Footer : mentions + réseaux -->
+
+			<p>Mentions légales</p>
+			<p>Crédits photos</p><hr>
+			<a href="www.facebook.com"><img src="assets/img/footer/reseauxsociaux_petit.png" alt="Liens vers réseaux sociaux"></a>
+
+	</footer>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

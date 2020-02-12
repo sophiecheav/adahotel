@@ -1,0 +1,97 @@
+.pleinelargeur
+{
+  background-image: url(../img/bgartdeco.jpg);
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+}
+
+.corpsdepage
+{
+  width:1024px;
+  background-color: #fffef0;
+  text-align: center;
+}
+
+.corpsdepage h2
+{
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.corpsdepage p
+{
+  font-family: verdana;
+  font-size: 1.2em;
+  color: #ffa923;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo
+{
+  text-align: center;
+}
+
+h1
+{
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+header
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+nav
+{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+nav ul
+{
+  list-style-type: none
+}
+
+nav a
+{
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2em
+  color: #000000;
+  text-decoration: none;
+}
+
+footer
+{
+  display: flex;
+  justify-content: left;
+}
+
+.logo_footer
+{
+  width: 20%;
+  justify-content: center;
+}
+
+.logo_footer p
+{
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+}
+
+.adresse
+{
+  width: 30%;
+}
+
+.mentions
+{
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
