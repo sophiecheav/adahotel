@@ -4,41 +4,41 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Ada Hôtel | Tarifs et réservation</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900&display=swap" rel="stylesheet">
 	</head>
 
 <body>
 
-	<div class="pleinelargeur">
+<main>
 
-		<div class="corpsdepage">
-
-	<header>
+			<header>
 
 <!-- Logo + titre page -->
 
-		<div class="logo">
+				<div class="logo">
 
-			<a href="index.html"><img src="assets/img/header/logo.png">
-			<h1>Ada Hôtel</h1></a>
+					<a href="index.html"><img src="assets/img/header/logo.png"></a>
+					<h1>Ada Hôtel</h1>
 
-		</div>
+				</div>
 
 <!-- Menu -->
 
-		<nav>
-			<ul>
-				<li><a href="index.html">Accueil</a></li>
-				<li><a href="chambres.html">Nos Chambres</a></li>
-				<li><a href="reservation.html">Réservation</a></li>
-				<li><a href="services.html">Nos services</a></li>
-				<li><a href="quartier.html">Autour de nous</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
+				<nav>
+					<ul>
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="chambres.html">Nos Chambres</a></li>
+						<li><a href="reservation.html">Réservation</a></li>
+						<li><a href="services.html">Nos services</a></li>
+						<li><a href="quartier.html">Autour de nous</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<p><img src="assets/img/separateur.png" alt="séparateur de rubrique"><p>
 
-	</header>
+			</header>
 
 	<div class="tarifsreservation">
 
@@ -111,7 +111,7 @@
 
 		<section id="option">
 
-			<h2>Vos options</h2>
+			<h3>Vos options</h3>
 
 					<label for="petitdejeuner">Petit déjeuner</label>
 					<input type="checkbox" name="petitdejeuner" value="" id="petitdejeuner">
@@ -134,7 +134,7 @@
 
 		<section id="infos">
 
-			<h2>Informations client</h2>
+			<h3>Informations client</h3>
 
 					<label for="">Nom</label>
 					<input type="text" name="nom" value=""> <br>
@@ -169,30 +169,39 @@
 
 				<!-- Footer : logo ADA gauche-->
 
-	<footer>
+				<footer>
 
-		<img src="assets/img/footer/logo_footer.png" alt="logo ADA Hôtel">
-		<p>ADA Hôtel</p>
+					<div class="itineraire">
 
-				<!-- Footer : plan + adresse milieu -->
+						<p>Itinéraire</p>
+						<a href="www.google.fr/maps"><img src="assets/img/footer/map_petit.png" alt="picto carte"></a>
 
-		<h2>Où nous trouver ?</h2>
-			<a href="www.google.fr/maps"><img src="assets/img/footer/map_petit.png" alt="picto carte"></a><hr>
-			<p>ADA Hôtel<br>
-			312 rue des Descodeuses <br/>
-			66 666 Womenarecoding</p>
+					</div>
 
-				<!-- Footer : mentions + réseaux -->
+				<!-- Footer : logo ADA milieu-->
 
-			<p>Mentions légales</p>
-			<p>Crédits photos</p><hr>
-			<a href="www.facebook.com"><img src="assets/img/footer/reseauxsociaux_petit.png" alt="Liens vers réseaux sociaux"></a>
+					<div class="logo_footer">
 
-	</footer>
+						<img src="assets/img/footer/logo_footer.png" alt="logo ADA Hôtel">
+						<p>ADA Hôtel<br>
+						312 rue des Descodeuses <br/>
+						66 666 Womenarecoding</p>
 
-</div>
+					</div>
 
-</div>
+				<!-- Footer : mentions + réseaux droite -->
+
+					<div class="mentions">
+
+						<p>Mentions légales</p>
+						<p>Crédits photos</p>
+						<a href="www.facebook.com"><img src="assets/img/footer/reseauxsociaux_petit.png" alt="Liens vers réseaux sociaux"></a>
+
+					</div>
+
+				</footer>
+
+			</main>
 
 </body>
 
