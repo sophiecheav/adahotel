@@ -1,40 +1,66 @@
-.pleinelargeur
+body
 {
   background-image: url(../img/bgartdeco.jpg);
-  opacity: 0.9;
   display: flex;
-  justify-content: center;
 }
 
-.corpsdepage
+main
 {
   width:800px;
+  margin: auto;
   background-color: #fffef0;
   text-align: center;
 }
 
-.corpsdepage h2
+main h2
 {
   font-family: 'Cinzel Decorative', cursive;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 2.2em;
+  color: #283b42;
 }
 
-.corpsdepage p
+div p
 {
   font-family: verdana;
   font-size: 1.2em;
   color: #000000;
-  width: 800px;
-  padding-left: 40px
-  padding-right: 40px;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
 }
 
-section p
+nav
 {
-  margin-left: 20px;
-  margin-right: 20px;
+  display: inline-block;
+  width: 800px;
+  font-size: 2.5em
   text-align: center;
+  font-weight: bold;
+}
+
+nav ul
+{
+  list-style-type: none
+}
+
+nav a
+{
+  font-family: 'Cinzel Decorative', cursive;
+  color: #000000;
+  text-decoration: none;
+}
+
+nav a:hover
+{
+  color: #ef9632;
+}
+
+nav li
+{
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 .logo
@@ -47,60 +73,95 @@ h1
   font-family: 'Cinzel Decorative', cursive;
 }
 
+.strong
+{
+  font-weight: bold;
+}
+
 header
 {
-  display: flex;
-  justify-content: space-around;
+  display: inline-block;
+  margin-top: 25px;
 }
 
-nav
+.presentation
 {
-  display: flex;
-  justify-content: space-around;
+  margin-top: 60px;
 }
 
-nav ul
+.reception
 {
-  list-style-type: none
+  margin-top: 50px;
 }
 
-nav a
+.bar
 {
-  font-family: 'Cinzel Decorative', cursive;
-  font-size: 2em
-  color: #000000;
-  text-decoration: none;
-  display: flex;
-  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.agenda
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section p
+{
+  margin-top: 25px;
+}
+
+.agenda p
+{
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 footer
 {
   display: flex;
-  justify-content: left;
+  margin-top: 40px;
+}
+
+.itineraire .logo_footer .mentions
+{
+  display: inline-block;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+footer p
+{
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .logo_footer
 {
-  width: 20%;
-  justify-content: center;
+  width: 40%;
 }
 
-.logo_footer p
-{
-  display: flex;
-  justify-content: left;
-  margin-left: 20px;
-}
-
-.adresse
+.itineraire
 {
   width: 30%;
+}
+
+.itineraire p
+{
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 3em
+  font-weight: bold;
 }
 
 .mentions
 {
-  display: flex;
-  align-items: center;
   width: 30%;
+}
+
+.chambres section
+{
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
