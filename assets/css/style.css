@@ -13,6 +13,12 @@ main
   background-color: #fffef0;
 }
 
+header
+{
+  background-color: #fffef0;
+  position: fixed;
+}
+
 main h2
 {
   font-family: 'Cinzel Decorative', cursive;
@@ -49,6 +55,10 @@ div p
   font-weight: bold;
 }
 
+.margintop
+{
+  margin-top: 450px;
+}
 /* menu */
 
 nav
@@ -94,7 +104,7 @@ header
 {
   display: inline-block;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 0px;
 }
 
 section p
@@ -189,6 +199,22 @@ footer p
 
 /* reservation */
 
+.resaform p
+{
+  font-family: verdana;
+  font-size: 1.1em;
+  margin-left: 20px;
+}
+
+.resaform h3
+{
+  font-family: verdana;
+  font-size: 1.5em;
+  color: #283b42
+}
+
+/* reservation / tableau tarifs */
+
 .tableautarifs h2
 {
   margin-top: 40px;
@@ -197,39 +223,131 @@ footer p
 
 .tableautarifs table
 {
-  display: inline-block;
+  display: inline-table;
   border: 3px solid #283b42;
   text-align: center;
   margin-bottom: 40px;
-  justify-content: center;
+  margin-left: 230px;
 }
 
-.reservation h2
+.tableautarifs p
 {
-  margin-top: 40px;
+  margin-left: 100px;
 }
 
 td, th
 {
     border: 1px solid #283b42;
     padding: 10px;
+    font-size: 1.5em;
 }
 
 .tableautarifs tr
 {
-  font-size: 1.5em;
+  font-size: 0.8em;
 }
+
+/* formulaire résa */
 
 #reservation p
 {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-flow: row wrap;
-  border: 1px solid black;
+}
+
+#reservation label
+{
+  margin-right: 10px;
 }
 
 .formresa p
 {
   text-align: left;
   max-width: 750px;
+}
+
+/* formulaire options */
+
+#option
+{
+  margin-top: 30px;
+}
+
+#option h3
+{
+  font-size: 2.5em
+  color: #283b42;
+  margin-left: 20px;
+}
+
+/* formulaire infos client */
+
+#infos
+{
+  margin-top: 30px;
+}
+
+#infos h3
+{
+  font-size: 2.5em
+  color: #283b42;
+  margin-left: 20px;
+}
+
+#infos p
+{
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+#infos label
+{
+  margin-right: 10px;
+}
+
+/* services */
+
+.services
+{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-left: 20px;
+}
+
+.services p
+{
+  margin-bottom: 25px;
+}
+
+/* quartier */
+
+.around
+{
+display: flex;
+justify-content: center;
+flex-flow: row wrap;
+margin-left: 20px;
+}
+
+/* contact */
+
+.contact
+{
+  display: inline-block;
+  justify-content: flex-start;
+}
+
+.contact label
+{
+  margin-right: 10px;
+}
+
+.contact p
+{
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
 }
