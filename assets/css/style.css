@@ -1,4 +1,10 @@
 /* corps de page et balises générales */
+@font-face {
+    font-family: 'fonts/alata-regular';
+    src: url('fonts/alata-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body
 {
@@ -30,7 +36,7 @@ main h2
 
 div p
 {
-  font-family: verdana;
+  font-family: 'fonts/alata-regular';
   font-size: 1.2em;
   color: #000000;
   text-align: center;
@@ -59,6 +65,7 @@ div p
 {
   margin-top: 450px;
 }
+
 /* menu */
 
 nav
@@ -115,7 +122,7 @@ section p
 footer
 {
   display: flex;
-  margin-top: 40px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -179,7 +186,7 @@ footer p
 
 .itineraire p
 {
-  font-family: verdana;
+  font-family: 'fonts/alata-regular';
   font-size: 4em
   font-weight: bold;
 }
@@ -201,14 +208,14 @@ footer p
 
 .resaform p
 {
-  font-family: verdana;
+  font-family: 'fonts/alata-regular';
   font-size: 1.1em;
   margin-left: 20px;
 }
 
 .resaform h3
 {
-  font-family: verdana;
+  font-family: 'fonts/alata-regular';
   font-size: 1.5em;
   color: #283b42
 }
